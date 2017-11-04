@@ -34,7 +34,7 @@ public class Main {
 		};
 		
 		
-		Gson gson = new Gson();
+		Gson gson = new Gson();	
 		String json = gson.toJson(p);
 		String json2 = gson.toJson(p.getName());
 		System.out.println(json);
